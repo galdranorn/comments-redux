@@ -37,6 +37,7 @@ function thumbDownComment(id) {
 
 // bound action creator
 const boundAddComment = text => dispatch(addComment(text));
+const boundEditComment = id => dispatch(editComment(id));
 const boundRemoveComment = id => dispatch(removeComment(id));
 const boundthumbUpComment = id => dispatch(thumbUpComment(id));
 const boundthumbDownComment = id => dispatch(thumbDownComment(id));
